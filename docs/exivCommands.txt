@@ -1,0 +1,7 @@
+Clear all keywords and add specific keywords back to file
+-----------------------------------------------------------
+exiv2 -M"del Xmp.dc.Subject" -M"set Xmp.dc.Subject XmpBag Charming" -M"set Xmp.dc.Subject XmpBag Bearskin" mo IMG_0002.xmp
+
+Create XMP sidecar file
+-----------------------------------------------------------
+exiv2 -e X <filename>
